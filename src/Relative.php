@@ -8,7 +8,7 @@ class Relative
      */
     private $options = array(
         'length' => '30 DAY',
-        'modify' => '-7 DAY',
+        'modify' => '-1 DAY',
         'interval' => 'P1D',
         'date_format' => 'Y-m-d'
     );
