@@ -1,6 +1,7 @@
 Date Range
 ================
 
+[![Build Status](https://travis-ci.org/warmans/date-range.svg?branch=master)](https://travis-ci.org/warmans/date-range)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/warmans/date-range/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/warmans/date-range/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/warmans/date-range/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/warmans/date-range/?branch=master)
 
