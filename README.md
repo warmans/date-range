@@ -1,6 +1,9 @@
 Date Range
 ================
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/warmans/date-range/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/warmans/date-range/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/warmans/date-range/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/warmans/date-range/?branch=master)
+
 ## Relative
 
 Thin wrapper around DateTime classes to simplify generating date ranges relative to the current date.
