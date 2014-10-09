@@ -4,7 +4,7 @@ namespace DateRange;
 class RelativeTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var Range
+     * @var Relative
      */
     private $object;
 
