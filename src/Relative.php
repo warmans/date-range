@@ -46,9 +46,9 @@ class Relative
     /**
      * Get an option.
      *
-     * @param $name
-     * @param null $default
-     * @return null
+     * @param string $name
+     * @param mixed $default
+     * @return mixed
      */
     protected function getOpt($name, $default = null)
     {
@@ -124,6 +124,8 @@ class Relative
         $lastDay->add($this->getInterval());
 
         $datePeriod = new \DatePeriod($this->getFirstDate(), $this->getInterval(), $lastDay);
+
+        $range = array();
         foreach ($datePeriod as $day) {
             $range[$day->format($this->getOpt('date_format'))] = array(
                 'raw' => $day,
