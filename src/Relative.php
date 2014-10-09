@@ -1,6 +1,11 @@
 <?php
 namespace DateRange;
 
+/**
+ * Generates an array of dates relative to the current date.
+ *
+ * @package DateRange
+ */
 class Relative
 {
     /**
@@ -39,6 +44,8 @@ class Relative
     }
 
     /**
+     * Get an option.
+     *
      * @param $name
      * @param null $default
      * @return null
@@ -49,6 +56,8 @@ class Relative
     }
 
     /**
+     * Update an options.
+     *
      * @param $name
      * @param $value
      */
@@ -58,6 +67,8 @@ class Relative
     }
 
     /**
+     * Override the start point i.e. the first date in the array.
+     *
      * @param \DateTime $date
      */
     public function setFirstDate(\DateTime $date)
@@ -74,6 +85,8 @@ class Relative
     }
 
     /**
+     * Override the end point (defaults to NOW)
+     *
      * @param \DateTime $date
      */
     public function setLastDate(\DateTime $date)
@@ -90,6 +103,8 @@ class Relative
     }
 
     /**
+     * Get the DateInterval instance generated using the provided config.
+     *
      * @return \DateInterval
      */
     public function getInterval()
@@ -98,6 +113,8 @@ class Relative
     }
 
     /**
+     * Get the range as defined by given options.
+     *
      * @return array
      */
     public function getRange()
